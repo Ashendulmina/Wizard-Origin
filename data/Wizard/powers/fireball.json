@@ -1,0 +1,21 @@
+{
+	"type":"origins:fire_projectile",
+	"entity_type":"minecraft:arrow",
+	"cooldown":2,
+	"count":6,
+	"speed":2.5,
+	"divergence":1,
+	"sound":"minecraft:entity.blaze.shoot",
+	"tag":"{pickup:0b,CostomPotionEffects:[{Id:2,Duration:100,Amplifier:0b}]}",
+	"key":{
+		"key":"key.origins.primary_active",
+		"continuous":false
+	},
+	"hud_render":{
+		"should_rnder":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png
+		"bar_index":6
+	},
+	"name":"Firebending"
+	"description":"shoot fire."
+}

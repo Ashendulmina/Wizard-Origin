@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"Wizard:lava_powers"
+		"Wizard:fireball"
+		"Wizard:ift_imu"
+		"Wizard:fallimmune"
+		"Wizard:attacking"
+	],
+	"icon": "minecraft:enchanting_table",
+	"order": 10,
+	"impact": 0,
+	"name": "§l§d Wizard",
+	"description": "No ww4"
+}

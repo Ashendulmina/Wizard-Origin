@@ -1,0 +1,39 @@
+"type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type":"origins:play_sound"
+        "sound": "entity.enderdragon.death"
+        "volume": 3
+        "pitch": 3
+
+             "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:slowness",
+            "amplifier": 3,
+            "duration": 200
+        },
+        "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:blindness",
+            "amplifier": 3,
+            "duration": 200
+    },
+        "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:nausea",
+            "amplifier": 3,
+            "duration": 200
+    },
+    "cooldown": 1200,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 5
+    },
+	
+	"name":"Freezhit",
+	"description":"make your enemy slow",

@@ -1,0 +1,20 @@
+{	
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:poison",
+        "minecraft:wither",
+        "minecraft:slowness",
+        "minecraft:mining_fatigue",
+        "minecraft:instant_damage",
+        "minecraft:nausea",
+        "minecraft:blindness",
+        "minecraft:hunger",
+        "minecraft:weakness",
+        "minecraft:absorption",
+        "minecraft:saturation",
+        "minecraft:glowing",
+        "minecraft:levitation"
+    ],
+	"name":"immunity",
+	"description":"immunity for a short time"
+}
